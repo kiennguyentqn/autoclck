@@ -1,0 +1,6 @@
+com.example.quicktimerclick.test.app-tracing-1.2.0-0 C:\Users\Admin\.gradle\caches\8.9\transforms\419d7dc68d6c489e64bac5706437a038\transformed\tracing-1.2.0\res
+com.example.quicktimerclick.test.app-core-1.7.0-1 C:\Users\Admin\.gradle\caches\8.9\transforms\b71bf2ca5ea472ab8ddea06a6adf48e6\transformed\core-1.7.0\res
+com.example.quicktimerclick.test.app-androidTest-2 E:\autoclick\QuickTimerClicktt\app\build\generated\res\resValues\androidTest\debug
+com.example.quicktimerclick.test.app-mergeDebugAndroidTestResources-3 E:\autoclick\QuickTimerClicktt\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.quicktimerclick.test.app-mergeDebugAndroidTestResources-4 E:\autoclick\QuickTimerClicktt\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.quicktimerclick.test.app-debugAndroidTest-5 E:\autoclick\QuickTimerClicktt\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
