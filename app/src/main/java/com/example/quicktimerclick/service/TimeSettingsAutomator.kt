@@ -115,6 +115,8 @@ class TimeSettingsAutomator(private val service: AutoClickAccessibilityService) 
      * cửa sổ Settings vừa mở. Nên phải duyệt qua danh sách windows để tìm
      * đúng cửa sổ thuộc app Settings.
      */
+
+
     private fun getSettingsRoot(): AccessibilityNodeInfo? {
         val windows = service.windows
         if (windows.isNullOrEmpty()) {

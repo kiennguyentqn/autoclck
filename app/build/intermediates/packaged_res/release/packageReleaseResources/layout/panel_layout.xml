@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#DD202020">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Timer Click"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/edtTargetPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target (HH:mm:ss)"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:inputType="datetime"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnNextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="4dp"
+        android:textSize="11sp"
+        android:text="NEXT TIME (+2p)"/>
+
+    <EditText
+        android:id="@+id/edtClickPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Click At (giây trước target)"
+        android:textColorHint="#AAAAAA"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/txtPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X : 0   Y : 0"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:paddingTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnSetPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="34dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:textSize="12sp"
+        android:text="SET POSITION"/>
+
+    <TextView
+        android:id="@+id/txtRemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remaining"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:paddingTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="34dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:textSize="12sp"
+        android:text="START"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="34dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:text="THOÁT"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bg_bubble
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnExit
+id btnNextTime
+id btnSetPosition
+id btnStart
+id edtClickPanel
+id edtTargetPanel
+id imgBubble
+id txtPosition
+id txtRemain
+layout activity_main
+layout bubble_layout
+layout panel_layout
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.QuickTimerClick
+style Theme.QuickTimerClick
+xml accessibility_config
+xml backup_rules
+xml data_extraction_rules
