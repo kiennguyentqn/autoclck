@@ -79,7 +79,7 @@ class TimeSettingsAutomator(private val service: AutoClickAccessibilityService) 
 
     // Nhãn công tắc "đặt tự động" theo nhiều ngôn ngữ, phòng máy đổi ngôn ngữ khác
     private val autoLabels = listOf(
-        "Đặt tự động", "Tự động xác định", "Tự động", "Đặt thời gian tự động",
+        "Đặt tự động", "Tự động đặt giờ", "Tự động", "Đặt thời gian tự động",
         "Automatic date & time", "Automatic", "Set automatically"
     )
 

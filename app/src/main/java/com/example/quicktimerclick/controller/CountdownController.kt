@@ -33,7 +33,7 @@ class CountdownController {
         Thread {
             timeOffsetMillis = SntpHelper.getNtpOffset(
                 ntpHost = "time.google.com",
-                sampleCount = 4
+                sampleCount = 2
             ) ?: 0L
 
 //            android.util.Log.d(
